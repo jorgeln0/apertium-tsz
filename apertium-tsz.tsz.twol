@@ -1,6 +1,6 @@
 Alphabet
- A B Ç D E Ä F G H I J Ž K L M N Ň O Ö P R S Ş T U Ü W Y Ý Z
- a b ç d e ä f g h i j ž k l m n ň o ö p r s ş t u ü w y ý z
+ A B C D E G H I Ï J K M N N O P R S T U X ʼ
+ a b c d e g h i ï j k m n n o p r s t u x ʼ
  %{A%}:a %>:0  ;
 
 Sets
@@ -19,4 +19,3 @@ i:0 <=> Vow %{VSUF%}:0 _ [ m | n ] ;
 ! https://github.com/hfst/
 ! http://wiki.apertium.org/wiki/Twol
 ! http://wiki.apertium.org/wiki/Hfst
-
