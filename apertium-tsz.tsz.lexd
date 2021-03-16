@@ -4,6 +4,7 @@
 # <n>      # Noun
 # <v>      # Verb
 # <adj>    # Adjective
+# <obj>    # Object
 
 # <sent>   # Sentence-ending punctuation
 # <guio>   # Hyphen
@@ -28,13 +29,21 @@
 
 PATTERNS
 NounRoot RegNounInfl
+ObjectRoot Object
 Punctuation
 
 
 LEXICON RegNounInfl
 
 <n><sg>:
-<n><pl>:>s
+<n><pl>:>echa
+
+LEXICON Object
+
+<n><sg>:
+<n><pl>:
+<n><sg><obj>:>ni
+<n><pl><obj>:>ni
 
 
 ###############################################################################
@@ -43,8 +52,13 @@ LEXICON RegNounInfl
 
 LEXICON NounRoot
 
-house:house   # A noun
+wari:wari   # A noun
 
+LEXICON ObjectRoot
+
+ganádu:ganádu
+kurúcha:kurúcha
+yurhíri:yurhíri
 
 LEXICON Punctuation
 
@@ -57,7 +71,7 @@ LEXICON Punctuation
 -<guio>:-
 —<guio>:—
 ,<cm>:,
-?<sent>:? 
+?<sent>:?
 '<apos>:'
 "<quot>:"
 «<lquot>:«
@@ -81,4 +95,3 @@ LEXICON Punctuation
 # https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstHome
 # https://github.com/hfst/
 # http://wiki.apertium.org/wiki/Hfst
-
