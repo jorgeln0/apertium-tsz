@@ -16,6 +16,24 @@
 # <lpar>   # Left parenthesis
 # <rpar>   # Right parenthesis
 
+# Verbs
+# <nom>    # nominalising suffix
+# <agnt>   # nominalising suffix (agent)
+# <p1>     # 1st person
+# <p2>     # 2nd person
+# <p3>     # 3rd person
+# <past>   # past
+# <pres>   # present
+# <fut>    # future
+# <cni>    # conditional
+# <pri>    # present indicative
+# <perf>   # perfect (aspect)
+# <dur>    # duration (aspect)
+# <hab>    # habitual (aspect)
+# <incp>   # inceptive
+# <itg>    # interrogative
+
+
 # Number morphology
 # <pl>  # Plural
 # <sg>  # Singular
@@ -30,8 +48,14 @@
 PATTERNS
 NounRoot RegNounInfl
 ObjectRoot Object
+VerbPattern
 Punctuation
 
+
+
+###############################################################################
+###                          L E X I C O N                                  ###
+###############################################################################
 
 LEXICON RegNounInfl
 
@@ -45,10 +69,34 @@ LEXICON Object
 <n><sg><obj>:>ni
 <n><pl><obj>:>ni
 
-
-###############################################################################
-###                          L E X I C O N                                  ###
-###############################################################################
+LEXICON VerbPattern
+<v><dur>:>xa
+<v><dur><itg><p1>:>xati
+<v><dur><itg><p2>:>xati
+<v><dur><itg><p3>:>xati
+<v><pres><hab>:>sïn
+#<v><pres><hab><p3>:>(sïn)di (pirésïndi)
+<v><pres><hab><itg><p1>:>sïni
+<v><pres><hab><itg><p2>:>sïni
+<v><pres><hab><itg><p3>:>sïni
+<v><perf>:>s
+<v><pres><incp>:>xam
+<v><pres>:
+<v><past>:>p
+<v><past><hab>:>sïam
+<v><past><incp>:>xamam
+<v><cni>:>pirin
+<v><pres><perf><itg><p1>:>ski
+<v><pres><perf><itg><p2>:>ski
+<v><pres><pref><itg><p3>:>ski
+<v><fut>:>a
+<v><p1>:>ka
+<v><p2>:>ka
+#<v><p1>:>ga (piréxamamga)
+<v><p3>:>ti
+#<v><p3>:>pi (piréspi)
+#<v><p3>:>bi (pirésïambi)
+#<v><p3>:>ni (pirépirini)
 
 LEXICON NounRoot
 
