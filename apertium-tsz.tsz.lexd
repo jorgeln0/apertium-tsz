@@ -48,7 +48,7 @@
 PATTERNS
 NounRoot RegNounInfl
 ObjectRoot Object
-VerbPattern
+Aspect Time Mode
 Punctuation
 
 
@@ -69,7 +69,27 @@ LEXICON Object
 <n><sg><obj>:>ni
 <n><pl><obj>:>ni
 
-LEXICON VerbPattern
+LEXICON Time
+
+<v><past>:>p
+<v><pres>:
+<v><fut>:>a
+<v><cni>:>pirin
+
+LEXICON Mode
+
+<v><p1><sg>:>ka
+<v><p1><pl>:>ka
+<v><p2><sg>:>ka
+<v><p2><pl>:>ka
+#<v><p1>:>ga (piréxamamga)
+<v><p3><sg>:>ti
+<v><p3><pl>:>ti
+#<v><p3>:>pi (piréspi)
+#<v><p3>:>ni (pirépirini)
+
+LEXICON Aspect
+
 <v><dur>:>xa
 <v><dur><itg><p1>:>xati
 <v><dur><itg><p2>:>xati
@@ -80,23 +100,21 @@ LEXICON VerbPattern
 <v><pres><hab><itg><p2>:>sïni
 <v><pres><hab><itg><p3>:>sïni
 <v><perf>:>s
-<v><pres><incp>:>xam
-<v><pres>:
-<v><past>:>p
-<v><past><hab>:>sïam
-<v><past><incp>:>xamam
-<v><cni>:>pirin
 <v><pres><perf><itg><p1>:>ski
 <v><pres><perf><itg><p2>:>ski
 <v><pres><pref><itg><p3>:>ski
-<v><fut>:>a
-<v><p1>:>ka
-<v><p2>:>ka
-#<v><p1>:>ga (piréxamamga)
-<v><p3>:>ti
-#<v><p3>:>pi (piréspi)
-#<v><p3>:>bi (pirésïambi)
-#<v><p3>:>ni (pirépirini)
+<v><past><perf><itg><p1>:>spi
+<v><past><perf><itg><p2>:>spi
+<v><past><perf><itg><p3>:>spi
+<v><pres><incp>:>xam
+<v><past><hab>:>sïam
+<v><past><hab><itg><p1>:>sïambi
+<v><past><hab><itg><p2>:>sïambi
+<v><past><hab><itg><p3>:>sïambi
+<v><past><dur><itg><p1>:>i
+<v><past><dur><itg><p2>:>i
+<v><past><dur><itg><p3>:>i
+<v><past><incp>:>xamam
 
 LEXICON NounRoot
 
