@@ -71,20 +71,20 @@ LEXICON Object
 
 LEXICON Time
 
-<v><past>:>p
-<v><pres>:
-<v><fut>:>a
-<v><cni>:>pirin
+<past>:>p
+<pres>:
+<fut>:>a
+<cni>:>pirin
 
 LEXICON Mode
 
-<v><p1><sg>:>ka
-<v><p1><pl>:>ka
-<v><p2><sg>:>ka
-<v><p2><pl>:>ka
+<p1><sg>:>ka
+<p1><pl>:>ka
+<p2><sg>:>ka
+<p2><pl>:>ka
 #<v><p1>:>ga (piréxamamga)
-<v><p3><sg>:>ti
-<v><p3><pl>:>ti
+<p3><sg>:>ti
+<p3><pl>:>ti
 #<v><p3>:>pi (piréspi)
 #<v><p3>:>ni (pirépirini)
 

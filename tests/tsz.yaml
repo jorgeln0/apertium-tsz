@@ -4,16 +4,85 @@ Config:
     Gen: ../tsz.autogen.hfst
     Morph: ../tsz.automorf.hfst
 Tests:
-  Aspect: {}
-  Case: {}
+  Aspect:
+    tumpí<pl>tumpíicha:
+    - ''
+    t’<p2><sg>:
+    - t’ú
+    t’<v><prf><past><sbjv>:
+    - t’iréspka
+    wanta<v><pass><hab><past><p3><ass><pl><poss>:
+    - wantanaxïnanti
+    xanó<v><prf><past><sbjv>:
+    - xanópka
+  Case:
+    ganádu<n><pl><obj>:
+    - ganáduni
+    kurú<n><pl><obj>:
+    - kurúchani
+    yurhíri<n><sg><obj>:
+    - yurhírini
   Determinants or Determiners: {}
-  Irrealis: {}
-  Mood: {}
+  Irrealis:
+    ewa<v><3PL.O><irr><ass><p1><sg>:
+    - ewaaaka
+    ni<v><irr><p3><sg>:
+    - niati
+  Mood:
+    Atá<v><prf><pres><ind><p1>:
+    - Atáska
+    Atá<v><prf><pres><ind><p2>:
+    - Atáska
+    Atá<v><prf><pres><ind><p3>:
+    - Atásti
+    xanó<v><prf><pres><sg><sbj><p1>:
+    - xanóskani
+    xupá<v><prf><pres><sg><sbj><p1>:
+    - xupáskani
   Nouns: {}
+  Others: {}
   Parts of Speech: {}
-  Person and Number: {}
-  Plural: {}
+  Person and Number:
+    eró<prog><p1><ind>:
+    - erókashaka
+    eró<prog><p1><ind><s_pl1>:
+    - erókashaksï
+    eró<prog><p1><ind><s_sg1>:
+    - erókashakani
+    eró<prog><p2><ind>:
+    - erókashaka
+    eró<prog><p2><ind><s_pl2>:
+    - erókashatsï
+    eró<prog><p2><ind><s_sg2>:
+    - erókashakani
+    eró<prog><p3><ind>:
+    - erókashati
+    eró<prog><p3><ind><s_pl3>:
+    - erókashatiksï
+  Plural:
+    anátapu<n><pl>:
+    - anátapuicha
+    kurú<n><pl>:
+    - kurúcha
+    wari<n><pl>:
+    - wariecha
   Reduplication: {}
-  Roots and Agents: {}
-  Singular: {}
-  Verbs: {}
+  Roots and Agents:
+    pire<n><sg>:
+    - pireri
+  Singular:
+    anátapu<n><sg>:
+    - anátapu
+    kurú<n><sg>:
+    - kurú
+    wari<n><sg>:
+    - wari
+  Verbs:
+    eshé<v><pprs><pres><1/2ind><p1><sg>:
+    - eshéshakani
+    jwá<v><perf><past><3ind>:
+    - jwáspti
+    kw’i<v><pres><ass><p1><sg>:
+    - kw’ixakani
+    kw’i<v><pres><sub><p1><sg>:
+    - kw’ixakani
