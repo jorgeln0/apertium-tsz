@@ -79,24 +79,24 @@ Tests:
     yurhíri<n><sg><obj>:
     - yurhírini
   Conditional:
-    pire<v><cni><itg>:
-    - pirepirini
-    pire<v><cni><p1>:
-    - pirepiringa
-    pire<v><cni><p2>:
-    - pirepiringa
-    pire<v><cni><p3>:
-    - pirepirindi
+    piré<v><cni><itg>:
+    - pirépirini
+    piré<v><cni><p1>:
+    - pirépiringa
+    piré<v><cni><p2>:
+    - pirépiringa
+    piré<v><cni><p3>:
+    - pirépirindi
   Determinants or Determiners: {}
   Future:
-    pire<v><fut><itg>:
-    - pirea
-    pire<v><fut><p1>:
-    - pireaka
-    pire<v><fut><p2>:
-    - pireaka
-    pire<v><fut><p3>:
-    - pireati
+    piré<v><fut><itg>:
+    - piréa
+    piré<v><fut><p1>:
+    - piréaka
+    piré<v><fut><p2>:
+    - piréaka
+    piré<v><fut><p3>:
+    - piréati
   Irrealis or Future:
     ni<v><fut><p3><sg>:
     - niati
@@ -115,41 +115,41 @@ Tests:
   Others: {}
   Parts of Speech: {}
   Past Actual:
-    pire<v><past><prog><itg>:
-    - pirexapi
-    pire<v><past><prog><p1>:
-    - pirexapka
-    pire<v><past><prog><p2>:
-    - pirexapka
-    pire<v><past><prog><p3>:
-    - pirexapti
+    piré<v><past><prog><itg>:
+    - piréxapi
+    piré<v><past><prog><p1>:
+    - piréxapka
+    piré<v><past><prog><p2>:
+    - piréxapka
+    piré<v><past><prog><p3>:
+    - piréxapti
   Past Habitual:
-    pire<v><past><hab><itg>:
-    - piresiambi
-    pire<v><past><hab><p1>:
-    - piresiamka
-    pire<v><past><hab><p2>:
-    - piresiamka
-    pire<v><past><hab><p3>:
-    - piresiamti
+    piré<v><past><hab><itg>:
+    - pirésiambi
+    piré<v><past><hab><p1>:
+    - pirésiamka
+    piré<v><past><hab><p2>:
+    - pirésiamka
+    piré<v><past><hab><p3>:
+    - pirésiamti
   Past Inceptive:
-    pire<v><past><incp><itg>:
-    - pirexamambi
-    pire<v><past><incp><p1>:
-    - pirexamamga
-    pire<v><past><incp><p2>:
-    - pirexamamga
-    pire<v><past><incp><p3>:
-    - pirexamampti
+    piré<v><past><incp><itg>:
+    - piréxamambi
+    piré<v><past><incp><p1>:
+    - piréxamamga
+    piré<v><past><incp><p2>:
+    - piréxamamga
+    piré<v><past><incp><p3>:
+    - piréxamampti
   Past Perfect:
-    pire<v><past><perf><itg>:
-    - pirespi
-    pire<v><past><perf><p1>:
-    - pirespka
-    pire<v><past><perf><p2>:
-    - pirespka
-    pire<v><past><perf><p3>:
-    - pirespti
+    piré<v><past><perf><itg>:
+    - piréspi
+    piré<v><past><perf><p1>:
+    - piréspka
+    piré<v><past><perf><p2>:
+    - piréspka
+    piré<v><past><perf><p3>:
+    - piréspti
   Person and Number:
     eró<v><pres><dur><p1>:
     - eróxaka
@@ -173,45 +173,45 @@ Tests:
     wari<n><pl>:
     - wariecha
   Present Actual:
-    pire<v><pres><prog><itg>:
-    - pirexaki
-    pire<v><pres><prog><p1>:
-    - pirexaka
-    pire<v><pres><prog><p2>:
-    - pirexaka
-    pire<v><pres><prog><p3>:
-    - pirexati
+    piré<v><pres><prog><itg>:
+    - piréxaki
+    piré<v><pres><prog><p1>:
+    - piréxaka
+    piré<v><pres><prog><p2>:
+    - piréxaka
+    piré<v><pres><prog><p3>:
+    - piréxati
   Present Habitual:
-    pire<v><pres><hab><itg>:
-    - piresini
-    pire<v><pres><hab><p1>:
-    - piresinka
-    pire<v><pres><hab><p2>:
-    - piresinka
-    pire<v><pres><hab><p3>:
-    - piresindi
+    piré<v><pres><hab><itg>:
+    - pirésini
+    piré<v><pres><hab><p1>:
+    - pirésinka
+    piré<v><pres><hab><p2>:
+    - pirésinka
+    piré<v><pres><hab><p3>:
+    - pirésindi
   Present Inceptive:
-    pire<v><pres><incp><itg>:
-    - pirexamki
-    pire<v><pres><incp><p1>:
-    - pirexamka
-    pire<v><pres><incp><p2>:
-    - pirexamka
-    pire<v><pres><incp><p3>:
-    - pirexamti
+    piré<v><pres><incp><itg>:
+    - piréxamki
+    piré<v><pres><incp><p1>:
+    - piréxamka
+    piré<v><pres><incp><p2>:
+    - piréxamka
+    piré<v><pres><incp><p3>:
+    - piréxamti
   Present Perfect:
-    pire<v><pres><perf><itg>:
-    - pireski
-    pire<v><pres><perf><p1>:
-    - pireska
-    pire<v><pres><perf><p2>:
-    - pireska
-    pire<v><pres><perf><p3>:
-    - piresti
+    piré<v><pres><perf><itg>:
+    - piréski
+    piré<v><pres><perf><p1>:
+    - piréska
+    piré<v><pres><perf><p2>:
+    - piréska
+    piré<v><pres><perf><p3>:
+    - pirésti
   Reduplication: {}
   Roots and Agents:
-    pire<n><sg>:
-    - pireri
+    piré<n><sg>:
+    - piréri
   Singular:
     anátapu<n><sg>:
     - anátapu

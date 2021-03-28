@@ -47,14 +47,14 @@
 
 PATTERNS
 NounRoot RegNounInfl
-ObjectRoot Object
-Verbs
+ObjectRoot RegNounInfl Object
+# Verbs
+# V-Stem AspectTime ModeInterrogative
 Punctuation
 
-PATTERN Verbs
-
-V-Stem(1) [<v>:] V-Stem(2): AspectTime
-V-Stem(1) [<v>:] V-Stem(3): ModeInterrogative
+# PATTERN Verbs
+# V-Stem(1) [<v>:] V-Stem(2): AspectTime # ModeInterrogative
+# V-Stem(1) [<v>:] V-Stem(3): ModeInterrogative
 
 ###############################################################################
 ###                          L E X I C O N                                  ###
@@ -67,10 +67,7 @@ LEXICON RegNounInfl
 
 LEXICON Object
 
-<n><sg>:
-<n><pl>:
-<n><sg><obj>:>ni
-<n><pl><obj>:>ni
+<obj>:>ni
 
 LEXICON AspectTime
 
@@ -100,6 +97,26 @@ LEXICON ModeInterrogative
 LEXICON NounRoot
 
 wari:wari
+ganádu:ganádu
+#kurú:kurú                       # fish
+kurúcha:kurúcha
+# yurhíri:yurhíri
+# kuchíyu:kuchíyu                 # knife
+# táa:táa                         # house
+# sapí:sapí                       # child
+# ayxádu:ayxádu                   # godson
+# wíchu:wíchu                     # dog
+# xatsíkwarhikwa:xatsíkwarhikwa   # treasure or wealth
+# kabáyu:kabáyu                   # horse
+# doktóri:doktóri                 # doctor
+# xurámuti:xurámuti               # chief
+# kúchi:kúchi                     # pig
+# maríkwa:maríkwa                 # girl
+# tsakápu:tsakápu                 # stone
+# charháku:charháku               # baby
+# káxa:káxa                       # box
+# korráli:korráli                 # pen
+# tsúntsu:tsúntsu                 # pot
 
 LEXICON ObjectRoot
 
@@ -123,37 +140,37 @@ káxa:káxa                       # box
 korráli:korráli                 # pen
 tsúntsu:tsúntsu                 # pot
 
-LEXICON V-Stem(2)
+# LEXICON V-Stem(2)
+#
+# piré:piré             <tv>    # sing
+# kw’i:kw’i             <iv>    # sleep
+# eshé:eshé             <tv>    # see
+# jwá:jwá               <tv>    # bring
+# t’iré:t’iré           <tv>    # eat
+# xanó:xanó             <iv>    # arrive
+# kachúku:kachúku       <tv>    # cut
+# xáma:xáma             <tv>    # go around
+# segíri:segíri         <iv>    # keep on
+# xwá:xwá               <tv>    # bring
+# atárant’a:atárant’a   <tv>    # sell
+# kweráta:kweráta       <iv>    # be missing
+# eró:eró               <iv>    # wait
 
-piré:piré             <tv>    # sing
-kw’i:kw’i             <iv>    # sleep
-eshé:eshé             <tv>    # see
-jwá:jwá               <tv>    # bring
-t’iré:t’iré           <tv>    # eat
-xanó:xanó             <iv>    # arrive
-kachúku:kachúku       <tv>    # cut
-xáma:xáma             <tv>    # go around
-segíri:segíri         <iv>    # keep on
-xwá:xwá               <tv>    # bring
-atárant’a:atárant’a   <tv>    # sell
-kweráta:kweráta       <iv>    # be missing
-eró:eró               <iv>    # wait
-
-LEXICON V-Stem(3)
-
-piré:piré             <tv>    # sing
-kw’i:kw’i             <iv>    # sleep
-eshé:eshé             <tv>    # see
-jwá:jwá               <tv>    # bring
-t’iré:t’iré           <tv>    # eat
-xanó:xanó             <iv>    # arrive
-kachúku:kachúku       <tv>    # cut
-xáma:xáma             <tv>    # go around
-segíri:segíri         <iv>    # keep on
-xwá:xwá               <tv>    # bring
-atárant’a:atárant’a   <tv>    # sell
-kweráta:kweráta       <iv>    # be missing
-eró:eró               <iv>    # wait
+# LEXICON V-Stem(3)
+#
+# piré:piré             <tv>    # sing
+# kw’i:kw’i             <iv>    # sleep
+# eshé:eshé             <tv>    # see
+# jwá:jwá               <tv>    # bring
+# t’iré:t’iré           <tv>    # eat
+# xanó:xanó             <iv>    # arrive
+# kachúku:kachúku       <tv>    # cut
+# xáma:xáma             <tv>    # go around
+# segíri:segíri         <iv>    # keep on
+# xwá:xwá               <tv>    # bring
+# atárant’a:atárant’a   <tv>    # sell
+# kweráta:kweráta       <iv>    # be missing
+# eró:eró               <iv>    # wait
 
 LEXICON Punctuation
 
