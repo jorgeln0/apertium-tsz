@@ -48,10 +48,13 @@
 PATTERNS
 NounRoot RegNounInfl
 ObjectRoot Object
-Aspect Time Mode
+Verbs
 Punctuation
 
+PATTERN Verbs
 
+V-Stem(1) [<v>:] V-Stem(2): AspectTime
+V-Stem(1) [<v>:] V-Stem(3): ModeInterrogative
 
 ###############################################################################
 ###                          L E X I C O N                                  ###
@@ -69,62 +72,74 @@ LEXICON Object
 <n><sg><obj>:>ni
 <n><pl><obj>:>ni
 
-LEXICON Time
+LEXICON AspectTime
 
-<past>:>p
-<pres>:
-<fut>:>a
+<pres><dur>:>xa
+<pres><hab>:>sïn
+<pres><perf>:>s
+<pres><incp>:>xam
+<past><dur>:>xap
+<past><hab>:>sïam
+<past><perf>:>sp
+<past><incp>:>xamam
 <cni>:>pirin
+<fut>:>a
 
-LEXICON Mode
+LEXICON ModeInterrogative
 
-<p1><sg>:>ka
-<p1><pl>:>ka
-<p2><sg>:>ka
-<p2><pl>:>ka
-#<v><p1>:>ga (piréxamamga)
+<p1><sg>:>kani
+<p1><pl>:>ksï
+<p2><sg>:>ri
+<p2><pl>:>tsï
 <p3><sg>:>ti
-<p3><pl>:>ti
-#<v><p3>:>pi (piréspi)
-#<v><p3>:>ni (pirépirini)
-
-LEXICON Aspect
-
-<v><dur>:>xa
-<v><dur><itg><p1>:>xati
-<v><dur><itg><p2>:>xati
-<v><dur><itg><p3>:>xati
-<v><pres><hab>:>sïn
-#<v><pres><hab><p3>:>(sïn)di (pirésïndi)
-<v><pres><hab><itg><p1>:>sïni
-<v><pres><hab><itg><p2>:>sïni
-<v><pres><hab><itg><p3>:>sïni
-<v><perf>:>s
-<v><pres><perf><itg><p1>:>ski
-<v><pres><perf><itg><p2>:>ski
-<v><pres><pref><itg><p3>:>ski
-<v><past><perf><itg><p1>:>spi
-<v><past><perf><itg><p2>:>spi
-<v><past><perf><itg><p3>:>spi
-<v><pres><incp>:>xam
-<v><past><hab>:>sïam
-<v><past><hab><itg><p1>:>sïambi
-<v><past><hab><itg><p2>:>sïambi
-<v><past><hab><itg><p3>:>sïambi
-<v><past><dur><itg><p1>:>i
-<v><past><dur><itg><p2>:>i
-<v><past><dur><itg><p3>:>i
-<v><past><incp>:>xamam
+<p3><pl>:>ksï
+<itg>:>ki
+<p1>:>ka
+<p2>:>ka
 
 LEXICON NounRoot
 
-wari:wari   # A noun
+wari:wari
 
 LEXICON ObjectRoot
 
 ganádu:ganádu
 kurúcha:kurúcha
 yurhíri:yurhíri
+kuchíyu:kuchíyu                 # knife
+táa:táa                         # house
+sapí:sapí                       # child
+ayxádu:ayxádu                   # godson
+wíchu:wíchu                     # dog
+xatsíkwarhikwa:xatsíkwarhikwa   # treasure or wealth
+kabáyu:kabáyu                   # horse
+doktóri:doktóri                 # doctor
+xurámuti:xurámuti               # chief
+kúchi:kúchi                     # pig
+maríkwa:maríkwa                 # girl
+tsakápu:tsakápu                 # stone
+charháku:charháku               # baby
+káxa:káxa                       # box
+korráli:korráli                 # pen
+tsúntsu:tsúntsu                 # pot
+
+LEXICON V-Stem(2)
+
+pire:pire             <tv>    # sing
+kw’i:kw’i             <iv>    # sleep
+eshé:eshé             <tv>    # see
+jwá:jwá               <tv>    # bring
+t’iré:t’iré           <tv>    # eat
+xanó:xanó             <iv>    # arrive
+kachúku:kachúku       <tv>    # cut
+xáma:xáma             <tv>    # go around
+segíri:segíri         <iv>    # keep on
+xwá:xwá               <tv>    # bring
+atárant’a:atárant’a   <tv>    # sell
+kweráta:kweráta       <iv>    # be missing
+eró:eró               <iv>    # wait
+
+LEXICON V-Stem(3)
 
 LEXICON Punctuation
 

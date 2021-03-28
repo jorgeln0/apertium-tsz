@@ -5,60 +5,166 @@ Config:
     Morph: ../tsz.automorf.hfst
 Tests:
   Aspect:
-    tumpí<pl>tumpíicha:
-    - ''
-    t’<p2><sg>:
-    - t’ú
-    t’<v><prf><past><sbjv>:
+    atárant’a<v><pres><perf><p3><sg>:
+    - atárant’asti
+    kachúku<v><pres><perf><p3><sg>:
+    - kachúkusti
+    kweráta<v><pres><dur><p3><sg>:
+    - kwerátaxati
+    segíri<v><past><perf><p3><sg>:
+    - segírispti
+    t’iré<v><fut><p1>:
+    - t’iréaka
+    t’iré<v><fut><p2>:
+    - t’iréaka
+    t’iré<v><fut><p3><sg>:
+    - t’iréati
+    t’iré<v><past><perf><p1>:
     - t’iréspka
-    wanta<v><pass><hab><past><p3><ass><pl><poss>:
-    - wantanaxïnanti
-    xanó<v><prf><past><sbjv>:
-    - xanópka
+    t’iré<v><past><perf><p2>:
+    - t’iréspka
+    t’iré<v><pres><dur><itg>:
+    - t’iréxaki
+    xanó<v><pres><perf><itg>:
+    - xanóski
+    xanó<v><pres><perf><p1>:
+    - xanóska
+    xanó<v><pres><perf><p2>:
+    - xanóska
+    xanó<v><pres><perf><p3><sg>:
+    - xanósti
+    xwá<v><pres><perf><p3><sg>:
+    - xwásti
+    xáma<v><fut><p1>:
+    - xámaaka
+    xáma<v><fut><p2>:
+    - xámaaka
   Case:
+    ayxádu<n><sg><obj>:
+    - ayxáduni
+    charháku<n><sg><obj>:
+    - charhákuni
+    doktóri<n><sg><obj>:
+    - doktórini
     ganádu<n><pl><obj>:
     - ganáduni
+    kabáyu<n><sg><obj>:
+    - kabáyuni
+    korráli<n><sg><obj>:
+    - korrálini
+    kuchíyu<n><sg><obj>:
+    - kuchíyuni
     kurú<n><pl><obj>:
     - kurúchani
+    káxa<n><sg><obj>:
+    - káxani
+    kúchi<n><sg><obj>:
+    - kúchini
+    maríkwa<n><sg><obj>:
+    - maríkwani
+    sapí<n><sg><obj>:
+    - sapíni
+    tsakápu<n><sg><obj>:
+    - tsakápuni
+    tsúntsu<n><sg><obj>:
+    - tsúntsuni
+    táa<n><sg><obj>:
+    - táani
+    wíchu<n><sg><obj>:
+    - wíchuni
+    xatsíkwarhikwa<n><sg><obj>:
+    - xatsíkwarhikwani
+    xurámuti<n><sg><obj>:
+    - xurámuti
     yurhíri<n><sg><obj>:
     - yurhírini
+  Conditional:
+    pire<v><cni><itg>:
+    - pirepirini
+    pire<v><cni><p1>:
+    - pirepiringa
+    pire<v><cni><p2>:
+    - pirepiringa
+    pire<v><cni><p3>:
+    - pirepirindi
   Determinants or Determiners: {}
-  Irrealis:
-    ewa<v><3PL.O><irr><ass><p1><sg>:
-    - ewaaaka
-    ni<v><irr><p3><sg>:
+  Future:
+    pire<v><fut><itg>:
+    - pirea
+    pire<v><fut><p1>:
+    - pireaka
+    pire<v><fut><p2>:
+    - pireaka
+    pire<v><fut><p3>:
+    - pireati
+  Irrealis or Future:
+    ni<v><fut><p3><sg>:
     - niati
   Mood:
-    Atá<v><prf><pres><ind><p1>:
+    Atá<v><pres><perf><p1>:
     - Atáska
-    Atá<v><prf><pres><ind><p2>:
+    Atá<v><pres><perf><p2>:
     - Atáska
-    Atá<v><prf><pres><ind><p3>:
+    Atá<v><pres><perf><p3><sg>:
     - Atásti
-    xanó<v><prf><pres><sg><sbj><p1>:
+    xanó<v><pres><perf><p1><sg>:
     - xanóskani
-    xupá<v><prf><pres><sg><sbj><p1>:
+    xupá<v><pres><perf><p1><sg>:
     - xupáskani
   Nouns: {}
   Others: {}
   Parts of Speech: {}
+  Past Actual:
+    pire<v><past><prog><itg>:
+    - pirexapi
+    pire<v><past><prog><p1>:
+    - pirexapka
+    pire<v><past><prog><p2>:
+    - pirexapka
+    pire<v><past><prog><p3>:
+    - pirexapti
+  Past Habitual:
+    pire<v><past><hab><itg>:
+    - piresiambi
+    pire<v><past><hab><p1>:
+    - piresiamka
+    pire<v><past><hab><p2>:
+    - piresiamka
+    pire<v><past><hab><p3>:
+    - piresiamti
+  Past Inceptive:
+    pire<v><past><incp><itg>:
+    - pirexamambi
+    pire<v><past><incp><p1>:
+    - pirexamamga
+    pire<v><past><incp><p2>:
+    - pirexamamga
+    pire<v><past><incp><p3>:
+    - pirexamampti
+  Past Perfect:
+    pire<v><past><perf><itg>:
+    - pirespi
+    pire<v><past><perf><p1>:
+    - pirespka
+    pire<v><past><perf><p2>:
+    - pirespka
+    pire<v><past><perf><p3>:
+    - pirespti
   Person and Number:
-    eró<prog><p1><ind>:
-    - erókashaka
-    eró<prog><p1><ind><s_pl1>:
-    - erókashaksï
-    eró<prog><p1><ind><s_sg1>:
-    - erókashakani
-    eró<prog><p2><ind>:
-    - erókashaka
-    eró<prog><p2><ind><s_pl2>:
-    - erókashatsï
-    eró<prog><p2><ind><s_sg2>:
-    - erókashakani
-    eró<prog><p3><ind>:
-    - erókashati
-    eró<prog><p3><ind><s_pl3>:
-    - erókashatiksï
+    eró<v><pres><dur><p1>:
+    - eróxaka
+    eró<v><pres><dur><p1><pl>:
+    - eróxakaksï
+    eró<v><pres><dur><p1><sg>:
+    - eróxakani
+    eró<v><pres><dur><p2>:
+    - eróxaka
+    eró<v><pres><dur><p2><pl>:
+    - eróxakatsï
+    eró<v><pres><dur><p2><sg>:
+    - eróxakari
+    eró<v><pres><dur><p3><pl>:
+    - eróxatiksï
   Plural:
     anátapu<n><pl>:
     - anátapuicha
@@ -66,6 +172,42 @@ Tests:
     - kurúcha
     wari<n><pl>:
     - wariecha
+  Present Actual:
+    pire<v><pres><prog><itg>:
+    - pirexaki
+    pire<v><pres><prog><p1>:
+    - pirexaka
+    pire<v><pres><prog><p2>:
+    - pirexaka
+    pire<v><pres><prog><p3>:
+    - pirexati
+  Present Habitual:
+    pire<v><pres><hab><itg>:
+    - piresini
+    pire<v><pres><hab><p1>:
+    - piresinka
+    pire<v><pres><hab><p2>:
+    - piresinka
+    pire<v><pres><hab><p3>:
+    - piresindi
+  Present Inceptive:
+    pire<v><pres><incp><itg>:
+    - pirexamki
+    pire<v><pres><incp><p1>:
+    - pirexamka
+    pire<v><pres><incp><p2>:
+    - pirexamka
+    pire<v><pres><incp><p3>:
+    - pirexamti
+  Present Perfect:
+    pire<v><pres><perf><itg>:
+    - pireski
+    pire<v><pres><perf><p1>:
+    - pireska
+    pire<v><pres><perf><p2>:
+    - pireska
+    pire<v><pres><perf><p3>:
+    - piresti
   Reduplication: {}
   Roots and Agents:
     pire<n><sg>:
@@ -78,11 +220,15 @@ Tests:
     wari<n><sg>:
     - wari
   Verbs:
-    eshé<v><pprs><pres><1/2ind><p1><sg>:
-    - eshéshakani
-    jwá<v><perf><past><3ind>:
+    eshé<v><pres><perf><p1>:
+    - eshéska
+    eshé<v><pres><perf><p2>:
+    - eshéska
+    eshé<v><pres><perf><p3><sg>:
+    - eshésti
+    jwá<v><past><perf><p3><sg>:
     - jwáspti
-    kw’i<v><pres><ass><p1><sg>:
-    - kw’ixakani
-    kw’i<v><pres><sub><p1><sg>:
-    - kw’ixakani
+    kw’i<v><pres><dur><p1>:
+    - kw’ixaka
+    kw’i<v><pres><dur><p2>:
+    - kw’ixaka
