@@ -90,7 +90,7 @@ LEXICON ModeInterrogative
 <p2><pl>:>tsï
 <p3><sg>:>ti
 <p3><pl>:>ksï
-<itg>:>ki
+<itg>:>{k}i
 <p1>:>ka
 #<p2>:>ka
 
@@ -98,25 +98,7 @@ LEXICON NounRoot
 
 wari:wari
 ganádu:ganádu
-#kurú:kurú                       # fish
 kurúcha:kurúcha
-# yurhíri:yurhíri
-# kuchíyu:kuchíyu                 # knife
-# táa:táa                         # house
-# sapí:sapí                       # child
-# ayxádu:ayxádu                   # godson
-# wíchu:wíchu                     # dog
-# xatsíkwarhikwa:xatsíkwarhikwa   # treasure or wealth
-# kabáyu:kabáyu                   # horse
-# doktóri:doktóri                 # doctor
-# xurámuti:xurámuti               # chief
-# kúchi:kúchi                     # pig
-# maríkwa:maríkwa                 # girl
-# tsakápu:tsakápu                 # stone
-# charháku:charháku               # baby
-# káxa:káxa                       # box
-# korráli:korráli                 # pen
-# tsúntsu:tsúntsu                 # pot
 
 LEXICON ObjectRoot
 

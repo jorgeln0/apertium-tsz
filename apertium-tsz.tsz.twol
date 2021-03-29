@@ -1,7 +1,11 @@
 Alphabet
  A Á B C D E G H I Ï J K M N N O P R S T U Ú X ʼ
  a á b c d e g h i ï j k m n n o p r s t u ú x ʼ
- %{A%}:a %>:0  ;
+ %{A%}:a %>:0
+
+! %{k%}:k %{e%}:0
+
+ ;
 
 Sets
 
@@ -10,8 +14,9 @@ Vowel = A E Ä I O Ö U Ü Y Ý
 
 Rules
 
-"Remove suffix vowel with vowel-ending stem"
-i:0 <=> Vow %{VSUF%}:0 _ [ m | n ] ;
+! "{K} is b if after sïam or xamam"
+! %{K%}:b <=> _ :sïam %>: :b :i ;
+!             _ :xamam %>: :b :i ;
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
