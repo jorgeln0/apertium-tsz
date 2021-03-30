@@ -76,9 +76,9 @@ LEXICON AspectTime
 <pres><perf>:>s
 <pres><incp>:>xam
 <past><dur>:>xap
-<past><hab>:>sïam
+<past><hab>:>sïam{M}
 <past><perf>:>sp
-<past><incp>:>xamam
+<past><incp>:>xamam{M}
 <cni>:>pirin
 <fut>:>a
 
@@ -90,7 +90,7 @@ LEXICON ModeInterrogative
 <p2><pl>:>tsï
 <p3><sg>:>ti
 <p3><pl>:>ksï
-<itg>:>{k}i
+<itg>:>ki
 <p1>:>ka
 #<p2>:>ka
 
