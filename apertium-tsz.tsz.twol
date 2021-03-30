@@ -16,7 +16,10 @@ Vowel = A E Ä I O Ö U Ü Y Ý
 Rules
 
  "{K} is b if after sïam or xamam"
- %{K%}:b <=> [ :n | :p | %{M%}: ] _ ;
+ %{K%}:b <=> [ %{M%}: ] %>: _ ;
+
+ "{K} is 0 if after n or p"
+ %{K%}:0 <=> [ :n | :p ] %>: _ ;
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
