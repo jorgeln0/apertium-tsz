@@ -3,7 +3,7 @@ Alphabet
  a á b c d e g h i ï j k m n n o p r s t u ú x ʼ
  %{A%}:a %>:0
 
- %{k%}:k %{e%}:0
+ %{K%}:k %{K%}:b %{K%}:0
 
  ;
 
