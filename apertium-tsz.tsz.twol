@@ -3,7 +3,7 @@ Alphabet
  a á b c d e g h i ï j k m n n o p r s t u ú x ʼ
  %{A%}:a %>:0
 
-! %{k%}:k %{e%}:0
+ %{k%}:k %{e%}:0
 
  ;
 
@@ -15,7 +15,7 @@ Vowel = A E Ä I O Ö U Ü Y Ý
 Rules
 
  "{K} is b if after sïam or xamam"
- %{K%}:0 <=> [ :n | :p | {M}: ] _ ;
+ %{K%}:b <=> [ :n | :p | %{M%}: ] _ ;
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
