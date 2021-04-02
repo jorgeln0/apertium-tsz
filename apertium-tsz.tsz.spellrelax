@@ -3,5 +3,8 @@
 	[ ?* [ ' (->) [ %` | ʻ | ’ | ‘ | ʼ ] ] ?* ] .o.
 
 	! Accept input without diacritics
-	[ ?* [ á (->) a ] ?* ]
+	[ ?* [ á (->) a ] ?* ] .o.
+
+	! Accept input without diacritics
+	[ ?* [ x (->) [ s h ] ] ?* ]
 ]

@@ -92,7 +92,7 @@ LEXICON ModeInterrogative
 <p3><pl>:>ksï
 <itg>:>{K}i
 <p1>:>ka
-#<p2>:>ka
+<p2>:>ka        #ambiguity
 
 LEXICON NounRoot
 
