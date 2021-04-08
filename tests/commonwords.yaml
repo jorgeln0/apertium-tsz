@@ -1,0 +1,65 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../tsz.autogen.hfst
+    Morph: ../tsz.automorf.hfst
+Tests:
+  Aspect:
+    atárant’a<v><tv><pres><perf><p3><sg>:
+    - atárant’asti
+    kachúku<v><tv><pres><perf><p3><sg>:
+    - kachúkusti
+    kweráta<v><iv><pres><dur><p3><sg>:
+    - kwerátaxati
+    segíri<v><iv><past><perf><p3><sg>:
+    - segírispti
+    t’iré<v><pres><dur><itg>:
+    - t’iréxaki
+    t’iré<v><tv><fut><p1>:
+    - t’iréaka
+    ka<det>:
+    - ka
+    enga<unk>:
+    - enga
+    tátjembespti<unk>:
+    - tátjembespti
+    Ka<det>:
+    - Ka
+    engaksï<unk>:
+    - engaksï
+    k<unk>:
+    - k
+    Jose<n><sg>:
+    - Jose
+    ma<num>:
+    - ma
+    kángorhespti<unk>:
+    - kángorhespti
+    jiájkani<unk>:
+    - jiájkani
+    jamberi<unk>:
+    - jamberi
+    Mariani<n><sg>:
+    - Mariani
+    Babilonia<n><sg>:
+    - Babilonia
+    jimbo<det>:
+    - jimbo
+    uératini<unk>:
+    - uératini
+    jápka<unk>:
+    - jápka
+    imeri<unk>:
+    - imeri
+    ima<det>:
+    - ima
+    p<unk>:
+    - p
+    ambe<unk>:
+    - ambe
+    ísï<unk>:
+    - ísï
+    máteru<adj>:
+    - máteru
+    jinguni<unk>:
+    - jinguni

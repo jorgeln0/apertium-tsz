@@ -5,6 +5,8 @@
 # <v>      # Verb
 # <adj>    # Adjective
 # <obj>    # Object
+# <det>    # Determinant
+# <num>    # Number
 
 # <sent>   # Sentence-ending punctuation
 # <guio>   # Hyphen
@@ -48,9 +50,13 @@
 PATTERNS
 NounRoot RegNounInfl
 ObjectRoot RegNounInfl Object
+Adjective
+Determiner
+Number
 Verbs
 # V-Stem AspectTime ModeInterrogative
 Punctuation
+
 
 PATTERN Verbs
 V-Stem(1) [<v>:] V-Stem(2): AspectTime ModeInterrogative
@@ -99,6 +105,9 @@ LEXICON NounRoot
 wari:wari
 ganádu:ganádu
 kurúcha:kurúcha
+Jose:Jose
+Babilonia:Babilonia
+Mariani:Mariani                 # maria
 
 LEXICON ObjectRoot
 
@@ -121,6 +130,20 @@ charháku:charháku               # baby
 káxa:káxa                       # box
 korráli:korráli                 # pen
 tsúntsu:tsúntsu                 # pot
+
+LEXICON Adjective
+máteru:máteru                   # other
+
+LEXICON Determiner
+
+ka:ka                           # and
+Ka:Ka                           # and
+jimbo:jimbo                     # for (is actually a prep/conj)
+ima:ima                         # he/she/they/that
+ísï:ísï                         # this/way
+
+LEXICON Number
+ma:ma                           # one
 
 LEXICON V-Stem(2)
 
