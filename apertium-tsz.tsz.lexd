@@ -51,7 +51,7 @@ PATTERNS
 NounRoot RegNounInfl
 ObjectRoot RegNounInfl Object
 Adjective
-Determiner
+Determiner [<det>:]
 Number
 Verbs
 # V-Stem AspectTime ModeInterrogative
@@ -137,7 +137,7 @@ máteru:máteru                   # other
 LEXICON Determiner
 
 ka:ka                           # and
-Ka:Ka                           # and
+# Ka:Ka                           # and
 jimbo:jimbo                     # for (is actually a prep/conj)
 ima:ima                         # he/she/they/that
 ísï:ísï                         # this/way
