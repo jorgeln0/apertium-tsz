@@ -13,7 +13,7 @@ Tests:
     - kwerátaxati
     segíri<v><iv><past><perf><p3><sg>:
     - segírispti
-    t’iré<v><pres><dur><itg>:
+    t’iré<v><tv><pres><dur><itg>:  # added tv
     - t’iréxaki
     t’iré<v><tv><fut><p1>:
     - t’iréaka
@@ -197,7 +197,7 @@ Tests:
     - piréxamka
     piré<v><tv><pres><incp><p2>:
     - piréxamka
-    piré<v><tv><pres><incp><p3>:
+    piré<v><tv><pres><incp><p3><sg>:  #added sg
     - piréxamti
   Present Perfect:
     piré<v><tv><pres><perf><itg>:
@@ -206,7 +206,7 @@ Tests:
     - piréska
     piré<v><tv><pres><perf><p2>:
     - piréska
-    piré<v><tv><pres><perf><p3>:
+    piré<v><tv><pres><perf><p3><sg>:  #added sg
     - pirésti
   Reduplication: {}
   Roots and Agents:
@@ -226,7 +226,7 @@ Tests:
     - eshéska
     eshé<v><tv><pres><perf><p3><sg>:
     - eshésti
-    jwá<v><tv><tv><past><perf><p3><sg>:
+    jwá<v><tv><past><perf><p3><sg>:  #remove tv
     - jwáspti
     kw’i<v><iv><pres><dur><p1>:
     - kw’ixaka

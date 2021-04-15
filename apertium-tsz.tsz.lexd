@@ -97,8 +97,8 @@ LEXICON ModeInterrogative
 <p3><sg>:>ti
 <p3><pl>:>ksï
 <itg>:>{K}i
-<p1>:>ka
-<p2>:>ka        #ambiguity
+<p1>:>{K2}a
+<p2>:>{K2}a        #ambiguity
 
 LEXICON NounRoot
 

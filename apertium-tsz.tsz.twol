@@ -5,6 +5,7 @@ Alphabet
 
  %{K%}:k %{K%}:b %{K%}:0
  %{M%}:0
+ %{K2%}:k %{K2%}:g
 
  ;
 
@@ -20,6 +21,9 @@ Rules
 
  "{K} is 0 if after n or p"
  %{K%}:0 <=> [ :n | :p ] %>: _ ;
+
+ "{K2} is g if after n"
+ %{K2%}:g <=> [ :n ] %>: _ ;
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
