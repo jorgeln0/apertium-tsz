@@ -78,6 +78,16 @@ Tests:
     - xurámuti
     yurhíri<n><sg><obj>:
     - yurhírini
+    wátsï<n><sg><obj>:
+    - wátsïni
+    María<n><sg><obj>:
+    - Maríani
+    itsi<n><sg><obj>:
+    - itsini
+    maríkwa<n><sg><obj>:
+    - maríkwani
+    tumpí<n><sg><obj>:
+    - tumpíni
   Conditional:
     piré<v><tv><cni><itg>:
     - pirépirini
@@ -208,6 +218,14 @@ Tests:
     - piréska
     piré<v><tv><pres><perf><p3><sg>:  #added sg
     - pirésti
+    kwánita<v><iv><pres><perf><p1>:  #new ambiguity
+    - kwánitaska
+    kwánita<v><iv><pres><perf><p2>:  #new ambiguity
+    - kwánitaska
+    íntsku<v><tv><pres><perf><p1>:  #new ambiguity
+    - íntskuska
+    íntsku<v><tv><pres><perf><p2>:  #new ambiguity
+    - íntskuska
   Reduplication: {}
   Roots and Agents:
     piré<n><sg>:
@@ -219,6 +237,8 @@ Tests:
     - kurú
     wari<n><sg>:
     - wari
+    xí<n><sg>:
+    - xí
   Verbs:
     eshé<v><tv><pres><perf><p1>:
     - eshéska

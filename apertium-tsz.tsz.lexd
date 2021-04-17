@@ -108,6 +108,7 @@ kurúcha:kurúcha
 Jose:Jose
 Babilonia:Babilonia
 Mariani:Mariani                 # maria
+xí:xí                           # I
 
 LEXICON ObjectRoot
 
@@ -130,6 +131,12 @@ charháku:charháku               # baby
 káxa:káxa                       # box
 korráli:korráli                 # pen
 tsúntsu:tsúntsu                 # pot
+wátsï:wátsï                     # son/daughter
+María:María                     # Maria
+itsi:itsi                       # water
+maríkwa:maríkwa                 # girl
+tumpí:tumpí                     # boy
+
 
 LEXICON Adjective
 máteru:máteru                   # other
@@ -160,6 +167,10 @@ xwá:xwá               <tv>    # bring
 atárant’a:atárant’a   <tv>    # sell
 kweráta:kweráta       <iv>    # be missing
 eró:eró               <iv>    # wait
+kwánita:kwánita       <iv>    # borrow/lend
+íntsku:íntsku         <tv>    # give
+
+
 
 # LEXICON V-Stem(3)
 #
