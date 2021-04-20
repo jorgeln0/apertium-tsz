@@ -75,7 +75,7 @@ Tests:
     xatsíkwarhikwa<n><sg><obj>:
     - xatsíkwarhikwani
     xurámuti<n><sg><obj>:
-    - xurámuti
+    - xurámutini
     yurhíri<n><sg><obj>:
     - yurhírini
     wátsï<n><sg><obj>:
@@ -96,7 +96,7 @@ Tests:
     piré<v><tv><cni><p2>:
     - pirépiringa
     piré<v><tv><cni><p3>:
-    - pirépirindi
+    - pirépirindi  #
   Determinants or Determiners: {}
   Future:
     piré<v><tv><fut><itg>:
