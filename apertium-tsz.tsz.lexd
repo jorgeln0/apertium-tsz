@@ -109,6 +109,8 @@ Jose:Jose
 Babilonia:Babilonia
 Mariani:Mariani                 # maria
 xí:xí                           # I
+karhasï:karhasï                 # worm
+chpíri:chpíri                   # fire
 
 LEXICON ObjectRoot
 
@@ -140,6 +142,7 @@ tumpí:tumpí                     # boy
 
 LEXICON Adjective
 máteru:máteru                   # other
+nómeni:nómeni                   # not/negative
 
 LEXICON Determiner
 
@@ -148,6 +151,9 @@ ka:ka                           # and
 jimbo:jimbo                     # for (is actually a prep/conj)
 ima:ima                         # he/she/they/that
 ísï:ísï                         # this/way
+jima:jima                       # where
+níjtu:níjtu                     # nor
+
 
 LEXICON Number
 ma:ma                           # one
@@ -169,6 +175,9 @@ kweráta:kweráta       <iv>    # be missing
 eró:eró               <iv>    # wait
 kwánita:kwánita       <iv>    # borrow/lend
 íntsku:íntsku         <tv>    # give
+enga:enga             <iv>    # belonging
+uarhij:uarhij         <iv>    # die
+pójpeni:pójpeni       <tv>    # quench
 
 
 

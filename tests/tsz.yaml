@@ -97,7 +97,19 @@ Tests:
     - pirépiringa
     piré<v><tv><cni><p3>:
     - pirépirindi  #
-  Determinants or Determiners: {}
+  Determinants or Determiners:
+    ka<det>:
+    - ka
+    jimbo<det>:
+    - jimbo
+    ima<det>:
+    - ima
+    ísï<det>:
+    - ísï
+    jima<det>:
+    - jima
+    níjtu<det>:
+    - níjtu
   Future:
     piré<v><tv><fut><itg>:
     - piréa
@@ -226,6 +238,14 @@ Tests:
     - íntskuska
     íntsku<v><tv><pres><perf><p2>:  #new ambiguity
     - íntskuska
+    enga<v><tv><pres><p3>:  #new ambiguity
+    - engaksï
+    uarhij<v><iv><pres><p1>:  #new ambiguity
+    - uarhijka
+    uarhij<v><iv><pres><p2>:  #new ambiguity
+    - uarhijka
+    pójpeni<v><tv><inf>:  #new ambiguity
+    - pójpeni
   Reduplication: {}
   Roots and Agents:
     piré<n><sg>:
