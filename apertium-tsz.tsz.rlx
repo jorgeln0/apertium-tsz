@@ -3,13 +3,19 @@ DELIMITERS = "<.>" ;
 
 # We can define sets for common tag clusters
 LIST Case = (n s) (n p) ; # A set that matches either a Noun Singular or a Noun Plural
+LIST Case = (n s) (n p) ; # A set that matches either a Noun Singular or a Noun Plural
+LIST V = v ;
+LIST N = n ;
+LIST O = o ;
+LIST FLEA = f ;
+LIST CORN = c ;
+LIST Det = det ;
 
 SECTION
-# If there is a singular noun to the right, I cannot be a verb or noun.
-REMOVE (n) OR (v) IF (1 (n s)) ;
-
-# If there is a conjunction followed by a certain cohort of the same CASE as me, choose me.
-SELECT $$Case IF (1 (cnjcoo) LINK 1C $$Case) ;
+# If we have the choice between cnjsub and preposition, and it appears before verb, select conjunction - not pr
+SELECT FLEA IF (v = wántiku)
+            (0 CORN)
+            (1 FLEA) ;
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
@@ -17,4 +23,3 @@ SELECT $$Case IF (1 (cnjcoo) LINK 1C $$Case) ;
 # http://kevindonnelly.org.uk/2010/05/constraint-grammar-tutorial/
 # http://wiki.apertium.org/wiki/Constraint_Grammar
 # http://wiki.apertium.org/wiki/Apertium_and_Constraint_Grammar
-

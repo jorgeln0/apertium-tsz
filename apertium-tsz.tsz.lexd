@@ -111,6 +111,7 @@ Mariani:Mariani                 # maria
 xí:xí                           # I
 karhasï:karhasï                 # worm
 chpíri:chpíri                   # fire
+María:María                     # Maria
 
 LEXICON ObjectRoot
 
@@ -138,6 +139,7 @@ María:María                     # Maria
 itsi:itsi                       # water
 maríkwa:maríkwa                 # girl
 tumpí:tumpí                     # boy
+tsíri:tsíri                     # corn
 
 
 LEXICON Adjective
@@ -178,7 +180,8 @@ kwánita:kwánita       <iv>    # borrow/lend
 enga:enga             <iv>    # belonging
 uarhij:uarhij         <iv>    # die
 pójpeni:pójpeni       <tv>    # quench
-
+k’amára:k’amára       <tv>    # finish
+wántiku:wántiku       <tv>    # kill
 
 
 # LEXICON V-Stem(3)
