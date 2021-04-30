@@ -2,6 +2,8 @@
 
 # Part of speech categories
 # <n>      # Noun
+# <np>     # Proper-Noun
+# <prn>    # Pronoun
 # <v>      # Verb
 # <adj>    # Adjective
 # <obj>    # Object
@@ -49,6 +51,8 @@
 
 PATTERNS
 NounRoot RegNounInfl
+ProNounRoot ProNounInfl
+PropNounRoot PropNounInfl
 ObjectRoot RegNounInfl Object
 Adjective
 Determiner [<det>:]
@@ -70,6 +74,14 @@ LEXICON RegNounInfl
 
 <n><sg>:
 <n><pl>:>echa
+
+LEXICON ProNounInfl
+
+<prn><sg>:
+
+LEXICON PropNounInfl
+
+<prn><sg>:
 
 LEXICON Object
 
@@ -105,15 +117,19 @@ LEXICON NounRoot
 wari:wari
 ganádu:ganádu
 kurúcha:kurúcha
-Jose:Jose
-Babilonia:Babilonia
-Mariani:Mariani                 # maria
-xí:xí                           # I
 karhasï:karhasï                 # worm
 chpíri:chpíri                   # fire
+
+LEXICON ProNounRoot
+xí:xí                           # I
+T’u:T’u                         # You
+
+LEXICON PropNounRoot
+
 María:María                     # Maria
 Xwánu:Xwánu                     # Juan
-T’u:T’u                         # You
+Jose:Jose
+Babilonia:Babilonia
 
 LEXICON ObjectRoot
 

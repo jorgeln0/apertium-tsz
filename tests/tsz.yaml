@@ -84,7 +84,7 @@ Tests:
     - yurhírini
     wátsï<n><sg><obj>:
     - wátsïni
-    María<n><sg><obj>:
+    María<np><sg><obj>:
     - Maríani
     itsi<n><sg><obj>:
     - itsini
@@ -122,8 +122,8 @@ Tests:
     - jima
     níjtu<det>:
     - níjtu
-    imá<det><obj>:
-    - imáni
+    imá<det>:
+    - imá
     para<det>:
     - para
   Future:
@@ -288,13 +288,13 @@ Tests:
     - kurú
     wari<n><sg>:
     - wari
-    xí<n><sg>:
+    xí<prn><sg>:
     - xí
-    María<n><sg>:
+    María<np><sg>:
     - María
-    Xwánu<n><sg>:
+    Xwánu<np><sg>:
     - Xwánu
-    T’u<n><sg>:
+    T’u<prn><sg>:
     - T’u
     Acháati<n><sg>:
     - Acháati
