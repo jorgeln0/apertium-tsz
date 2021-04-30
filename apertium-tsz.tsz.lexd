@@ -112,6 +112,8 @@ xí:xí                           # I
 karhasï:karhasï                 # worm
 chpíri:chpíri                   # fire
 María:María                     # Maria
+Xwánu:Xwánu                     # Juan
+T’u:T’u                         # You
 
 LEXICON ObjectRoot
 
@@ -140,6 +142,10 @@ itsi:itsi                       # water
 maríkwa:maríkwa                 # girl
 tumpí:tumpí                     # boy
 tsíri:tsíri                     # corn
+tumína:tumína                   # money
+acháati:acháati                 # man
+wari:wari                       # woman
+# imá:imá                         # that
 
 
 LEXICON Adjective
@@ -155,6 +161,8 @@ ima:ima                         # he/she/they/that
 ísï:ísï                         # this/way
 jima:jima                       # where
 níjtu:níjtu                     # nor
+imá:imá                         # that
+para:para                       # for
 
 
 LEXICON Number
@@ -182,6 +190,12 @@ uarhij:uarhij         <iv>    # die
 pójpeni:pójpeni       <tv>    # quench
 k’amára:k’amára       <tv>    # finish
 wántiku:wántiku       <tv>    # kill
+xwá:xwá               <tv>    # bring !!add spellrelax
+Pyá:Pyá               <tv>    # buy
+k’waníra:k’waníra     <tv>    # throw
+ewá:ewá               <tv>    # take away
+intsikurhi:intsikurhi <tv>    # give away
+
 
 
 # LEXICON V-Stem(3)

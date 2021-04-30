@@ -12,8 +12,7 @@ LIST CORN = c ;
 LIST Det = det ;
 
 SECTION
-# If we have the choice between cnjsub and preposition, and it appears before verb, select conjunction - not pr
-SELECT FLEA IF (v = wántiku)
+# If tsíri
             (0 CORN)
             (1 FLEA) ;
 

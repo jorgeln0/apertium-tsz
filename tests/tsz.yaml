@@ -39,6 +39,10 @@ Tests:
     - xámaaka
     xáma<v><tv><fut><p2>:
     - xámaaka
+    intsikurhi<v><tv><fut><p1>:
+    - intsikurhiaka
+    intsikurhi<v><tv><fut><p2>:
+    - intsikurhiaka
   Case:
     ayxádu<n><sg><obj>:
     - ayxáduni
@@ -90,6 +94,12 @@ Tests:
     - tumpíni
     tsíri<n><sg><obj>:
     - tsírini
+    tumína<n><sg><obj>:
+    - tumínani
+    acháati<n><sg><obj>:
+    - acháatini
+    wari<n><sg><obj>:
+    - warini
   Conditional:
     piré<v><tv><cni><itg>:
     - pirépirini
@@ -112,6 +122,10 @@ Tests:
     - jima
     níjtu<det>:
     - níjtu
+    imá<det><obj>:
+    - imáni
+    para<det>:
+    - para
   Future:
     piré<v><tv><fut><itg>:
     - piréa
@@ -121,6 +135,8 @@ Tests:
     - piréaka
     piré<v><tv><fut><p3>:
     - piréati
+    piré<v><tv><fut><p1>:
+    - piréskani
   Irrealis or Future:
     ni<v><fut><p3><sg>:
     - niati
@@ -248,10 +264,19 @@ Tests:
     - uarhijka
     pójpeni<v><tv><inf>:  #new ambiguity
     - pójpeni
-    k’amára<v><tv><pres><perf><p3>:  #new ambiguity
-    - pójpeni
-    wántiku<v><tv><pres><perf><p3>:  #new ambiguity
-    - pójpeni
+    k’amára<v><tv><pres><perf><p3>:
+    - k’amárasti
+    wántiku<v><tv><pres><perf><p3>:
+    - wántikusti
+    xwá<v><tv><pres><perf><p3>:
+    - xwásti
+    Pyá<v><tv><pres><perf><p3>:
+    - pyárakusti
+    k’waníra<v><tv><pres><perf><p3>:
+    - k’wanírasti
+    ewá<v><tv><pres><perf><p3>:
+    - ewáskani
+
   Reduplication: {}
   Roots and Agents:
     piré<n><sg>:
@@ -267,6 +292,12 @@ Tests:
     - xí
     María<n><sg>:
     - María
+    Xwánu<n><sg>:
+    - Xwánu
+    T’u<n><sg>:
+    - T’u
+    Acháati<n><sg>:
+    - Acháati
   Verbs:
     eshé<v><tv><pres><perf><p1>:
     - eshéska
