@@ -81,7 +81,8 @@ LEXICON ProNounInfl
 
 LEXICON PropNounInfl
 
-<prn><sg>:
+<np><sg>:
+<np><sg><obj>:>ni
 
 LEXICON Object
 

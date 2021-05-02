@@ -12,9 +12,7 @@ LIST CORN = c ;
 LIST Det = det ;
 
 SECTION
-# If tsíri
-            (0 CORN)
-            (1 FLEA) ;
+
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
