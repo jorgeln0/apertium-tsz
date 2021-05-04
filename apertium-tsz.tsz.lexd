@@ -55,7 +55,7 @@ ProNounRoot ProNounInfl
 PropNounRoot PropNounInfl
 ObjectRoot RegNounInfl Object
 Adjective
-Determiner [<det>:]
+Determiner DeterminerInfl
 Number
 Verbs
 # V-Stem AspectTime ModeInterrogative
@@ -87,6 +87,11 @@ LEXICON PropNounInfl
 LEXICON Object
 
 <obj>:>ni
+
+LEXICON DeterminerInfl
+
+<det>:
+<det><obj>:ni
 
 LEXICON AspectTime
 
@@ -120,6 +125,7 @@ ganádu:ganádu
 kurúcha:kurúcha
 karhasï:karhasï                 # worm
 chpíri:chpíri                   # fire
+acháati:acháati                 # man
 
 LEXICON ProNounRoot
 xí:xí                           # I
@@ -208,7 +214,7 @@ pójpeni:pójpeni       <tv>    # quench
 k’amára:k’amára       <tv>    # finish
 wántiku:wántiku       <tv>    # kill
 xwá:xwá               <tv>    # bring !!add spellrelax
-Pyá:Pyá               <tv>    # buy
+pyá:pyá               <tv>    # buy
 k’waníra:k’waníra     <tv>    # throw
 ewá:ewá               <tv>    # take away
 intsikurhi:intsikurhi <tv>    # give away
