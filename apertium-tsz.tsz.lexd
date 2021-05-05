@@ -54,7 +54,7 @@ NounRoot RegNounInfl
 ProNounRoot ProNounInfl
 PropNounRoot PropNounInfl
 ObjectRoot RegNounInfl Object
-Adjective
+Adjective [<adj>:]
 Determiner DeterminerInfl
 Number
 Verbs
@@ -135,7 +135,9 @@ LEXICON PropNounRoot
 
 María:María                     # Maria
 Xwánu:Xwánu                     # Juan
+Rósa:Rósa
 Jose:Jose
+Lúpi:Lúpi
 Babilonia:Babilonia
 
 LEXICON ObjectRoot
@@ -168,12 +170,16 @@ tsíri:tsíri                     # corn
 tumína:tumína                   # money
 acháati:acháati                 # man
 wari:wari                       # woman
+kwártu:kwártu                   # room
+jurhiata:jurhiata               # sun
+pirekua:pirekua                 # song
 # imá:imá                         # that
 
 
 LEXICON Adjective
 máteru:máteru                   # other
 nómeni:nómeni                   # not/negative
+pimbinhasï:pimbinhasï           # clean/holy
 
 LEXICON Determiner
 

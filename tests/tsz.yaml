@@ -100,6 +100,12 @@ Tests:
     - acháatini
     wari<n><sg><obj>:
     - warini
+    kwártu<n><sg><obj>:
+    - kwártuni
+    jurhiata<n><sg><obj>:
+    - jurhiatani
+    pirekua<n><sg><obj>:
+    - pirekuani
   Conditional:
     piré<v><tv><cni><itg>:
     - pirépirini
@@ -294,6 +300,8 @@ Tests:
     - María
     Xwánu<np><sg>:
     - Xwánu
+    Rósa<np><sg>:
+    - Rósa
     T’u<prn><sg>:
     - T’u
     Acháati<n><sg>:
@@ -311,3 +319,12 @@ Tests:
     - kw’ixaka
     kw’i<v><iv><pres><dur><p2>:
     - kw’ixaka
+    kw’i<v><iv><perf><pres><p3>:
+    - k’wísti
+  Adjective:
+    pimbinhasï<adj>:
+    - pimbinhasï
+    máteru<adj>:
+    - máteru
+    nómeni<adj>:
+    - nómeni
