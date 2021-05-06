@@ -54,7 +54,9 @@ NounRoot RegNounInfl
 ProNounRoot ProNounInfl
 PropNounRoot PropNounInfl
 ObjectRoot RegNounInfl Object
+LocativeRoot RegNounInfl Locative
 Adjective [<adj>:]
+Preposition [<pr>:]
 Determiner DeterminerInfl
 Number
 Verbs
@@ -87,6 +89,10 @@ LEXICON PropNounInfl
 LEXICON Object
 
 <obj>:>ni
+
+LEXICON Locative
+
+<loc>:>rhu
 
 LEXICON DeterminerInfl
 
@@ -173,26 +179,38 @@ wari:wari                       # woman
 kwártu:kwártu                   # room
 jurhiata:jurhiata               # sun
 pirekua:pirekua                 # song
+ráma:ráma                       # branch
+anátapu:anátapu                 # tree
+pwérta:pwérta                   # door
+táa:táa                         # house
 # imá:imá                         # that
 
+LEXICON LocativeRoot
+
+kwártu:kwártu                   # room
+táa:táa                         # house
+anátapu:anátapu                 # tree
 
 LEXICON Adjective
+
 máteru:máteru                   # other
 nómeni:nómeni                   # not/negative
 pimbinhasï:pimbinhasï           # clean/holy
 
+LEXICON Preposition
+jimbo:jimbo                     # for (is actually a prep/conj)
+para:para                       # for
+xinkóni:xinkóni                 # at
+
 LEXICON Determiner
 
 ka:ka                           # and
-# Ka:Ka                           # and
-jimbo:jimbo                     # for (is actually a prep/conj)
 ima:ima                         # he/she/they/that
 ísï:ísï                         # this/way
 jima:jima                       # where
 níjtu:níjtu                     # nor
 imá:imá                         # that
-para:para                       # for
-
+máru:máru                       # some
 
 LEXICON Number
 ma:ma                           # one
@@ -224,6 +242,9 @@ pyá:pyá               <tv>    # buy
 k’waníra:k’waníra     <tv>    # throw
 ewá:ewá               <tv>    # take away
 intsikurhi:intsikurhi <tv>    # give away
+kwaká:kwaká           <tv>    # wet
+kurhú:kurhú           <tv>    # burn
+ikía:ikía             <iv>    # get angry
 
 
 

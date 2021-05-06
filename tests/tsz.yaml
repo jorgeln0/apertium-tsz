@@ -106,6 +106,20 @@ Tests:
     - jurhiatani
     pirekua<n><sg><obj>:
     - pirekuani
+    ráma<n><sg><obj>:
+    - rámani
+    anátapu<n><sg><obj>:
+    - anátapuni
+    pwérta<n><sg><obj>:
+    - pwértani
+    táa<n><sg><obj>:
+    - táani
+    kwártu<n><sg><loc>: #start of loc tests
+    - kwárturhu
+    anátapu<n><sg><loc>:
+    - anátapurhu
+    táa<n><sg><obj>:
+    - táarhu
   Conditional:
     piré<v><tv><cni><itg>:
     - pirépirini
@@ -115,11 +129,16 @@ Tests:
     - pirépiringa
     piré<v><tv><cni><p3>:
     - pirépirindi  #
+  Preposition:
+    jimbo<pr>:
+    - jimbo
+    para<pr>:
+    - para
+    xinkóni<pr>:
+    - xinkóni
   Determinants or Determiners:
     ka<det>:
     - ka
-    jimbo<det>:
-    - jimbo
     ima<det>:
     - ima
     ísï<det>:
@@ -130,8 +149,8 @@ Tests:
     - níjtu
     imá<det>:
     - imá
-    para<det>:
-    - para
+    máru<det>:
+    - máru
   Future:
     piré<v><tv><fut><itg>:
     - piréa
@@ -282,6 +301,12 @@ Tests:
     - k’wanírasti
     ewá<v><tv><pres><perf><p3>:
     - ewáskani
+    kwaká<v><tv><perf><pres><p3>:
+    - kwakásti
+    kurhú<v><tv><perf><pres><p3>:
+    - kurhústi
+    ikía<v><tv><perf><pres><p3>:
+    - ikíasti
 
   Reduplication: {}
   Roots and Agents:
@@ -320,7 +345,7 @@ Tests:
     kw’i<v><iv><pres><dur><p2>:
     - kw’ixaka
     kw’i<v><iv><perf><pres><p3>:
-    - k’wísti
+    - kw’isti
   Adjective:
     pimbinhasï<adj>:
     - pimbinhasï
