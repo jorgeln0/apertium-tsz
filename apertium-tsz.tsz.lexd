@@ -189,6 +189,46 @@ anátapu:anátapu                 # tree
 pwérta:pwérta                   # door
 táa:táa                         # house
 te:te                           # corn cob
+ajusï:ajusï                     # eye #1
+akuitsi:akuitsi                 # snake
+amanhejchakua:amanhejchakua     # fruit
+ambajtsïtakua:ambajtsïtakua     # comb
+auani:auani                     # rabbit
+axuni:axuni                     # deer
+chkári:chkári                   # lumber
+ch’anakua:ch’anakua             # game
+éjpu:éjpu                       # head
+eramarhandikua:eramarhandikua   # light
+iauakua:iauakua                 # ice
+ichúskuta:ichúskuta             # tortilla
+ireta:ireta                     # village
+isingua:isingua                 # armadillo
+itukua:itukua                   # salt
+itsukua:itsukua                 # milk
+iurhiri:iurhiri                 # blood
+jájki:jájki                     # hand
+janhaskua:janhaskua             # vision
+janikua:janikua                 # rain
+jantsiri:jantsiri               # foot
+jantspiri:jantspiri             # servant
+jatatsikua:jatatsikua           # bed
+jeiaki:jeiaki                   # thief
+jiuakuarhikua:jiuakuarhikua     # scream
+jiuatsï:jiuatsï                 # coyote
+jonguarhikua:jonguarhikua       # girdle
+juáta:juáta                     # woods
+kambanu:kambanu                 # bell
+katamba:katamba                 # tongue/language
+kauaru:kauaru                   # hill
+kekua:kekua                     # stairs/ladder
+komarhikua:komarhikua           # prayer
+kuaraki:kuaraki                 # squirell
+kuarasï:kuarasï                 # duck
+kuechenda:kuechenda             # saliva
+kurucha:kurucha                 # fish
+kustakua:kustakua               # instrument
+mintsita:mintsita               # heart
+misitu:misitu                   # cat
 
 LEXICON LocativeRoot
 
@@ -201,6 +241,8 @@ LEXICON Adjective
 máteru:máteru                   # other
 nómeni:nómeni                   # not/negative
 pimbinhasï:pimbinhasï           # clean/holy
+aspiti:aspiti                   # tasty
+charhapiti:charhapiti           # red
 
 LEXICON Preposition
 jimbo:jimbo                     # for (is actually a prep/conj)
@@ -255,7 +297,65 @@ míti:míti             <tv>    # know/realize
 wéka:wéka             <tv>    # love
 segíri:segíri         <iv>    # keep on
 uéjki:uéjki           <tv>    # want
-te:te                 <iv>    # be weet
+te:te                 <iv>    # be sweet
+ambajtsïku:ambajtsïku <tv>    # comb #1
+ambakerani:ambakerani <tv>    # clean
+ambakeranta:ambakeranta <tv>  # heal
+ambamandi:ambamandi   <iv>    # wake up
+andajpinu:andajpinu   <iv>    # born
+andangu:andangu       <tv>    # reach
+andanguta:andanguta   <tv>    # finish
+anhaxurhi:anhaxurhi   <iv>    # get up
+arhinta:arhinta       <tv>    # read
+arhuku:arhuku         <tv>    # divide
+atanta:atanta         <tv>    # paint
+ataranta:ataranta     <tv>    # sell
+axa:axa               <tv>    # send
+chata:chata           <tv>    # hammer
+chkuandera:chkuandera <iv>    # lie
+chuparhi:chuparhi     <tv>    # suck
+ch’ana:ch’ana         <tv>    # play
+eraa:eraa             <tv>    # watch
+incha:incha           <tv>    # enter
+iorheata:iorheata     <tv>    # hose
+ireka:ireka           <tv>    # live
+itsïma:itsïma         <tv>    # drink
+itsutani:itsutani     <tv>    # smoke
+jakajku:jakajku       <tv>    # believe
+jájkundi:jájkundi     <iv>    # be smelly
+janhaska:janhaska     <tv>    # undestand
+jantspi:jantspi       <tv>    # serve
+jarha:jarha           <tv>    # be
+jarhoata:jarhoata     <tv>    # help
+jata:jata             <tv>    # mount
+jatsikuarhi:jatsikuarhi  <tv> # have
+jatsiku:jatsiku       <tv>    # place
+jikua:jikua           <tv>    # bathe
+jirejta:jirejta       <tv>    # breathe
+jirinha:jirinha       <tv>    # find
+jiska:jiska           <tv>    # hind
+jiuakuarhi:jiuakuarhi <tv>    # scream
+jiua:jiua             <tv>    # vomit
+joku:joku             <tv>    # tie
+jorhenda:jorhenda     <tv>    # show
+jorhénguarhi:jorhénguarhi <tv>  # learn
+jupa:jupa             <tv>    # wash
+jurajku:jurajku       <tv>    # leave
+juramu:juramu         <tv>    # order
+kantspi:kantspi       <tv>    # owe
+kárani:kárani         <tv>    # fly
+kará:kará             <tv>    # write
+karuku:karuku         <tv>    # break
+katsarhi:katsarhi     <tv>    # bite
+ketsi:ketsi           <tv>    # lower
+kuájchaku:kuájchaku   <tv>    # free
+kuajpi:kuajpi         <tv>    # defend
+kuakara:kuakara       <tv>    # wet
+kuenarhi:kuenarhi     <tv>    # lick
+kurhira:kurhira       <tv>    # burn
+kustani:kustani       <tv>    # plat (instrument)
+meremerejku:meremerejku <tv>  # shine
+mita:mita             <tv>    # open
 
 
 
