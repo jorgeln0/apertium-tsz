@@ -9,7 +9,7 @@ LIST WKA = "wéka" ;
 LIST SGI = "segíri" ;
 LIST UKI = "uéjki" ;
 # LIST V = v;
-# LIST N = n;
+LIST N = n;
 # LIST O = obj;
 # LIST INF = nf;
 
@@ -27,7 +27,8 @@ REMOVE (n) IF (-1 SGI) ;
 # if there is an word ending in -ni following 'want', it is an infinitive verb, not object
 REMOVE (n) IF (-1 UKI) ;
 
-
+# if there is an word ending in -ni following 'want', it is an infinitive verb, not object
+REMOVE (n) IF (-1 N) ;
 
 
 # Resources:

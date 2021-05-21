@@ -188,6 +188,7 @@ ráma:ráma                       # branch
 anátapu:anátapu                 # tree
 pwérta:pwérta                   # door
 táa:táa                         # house
+te:te                           # corn cob
 
 LEXICON LocativeRoot
 
@@ -254,6 +255,7 @@ míti:míti             <tv>    # know/realize
 wéka:wéka             <tv>    # love
 segíri:segíri         <iv>    # keep on
 uéjki:uéjki           <tv>    # want
+te:te                 <iv>    # be weet
 
 
 
