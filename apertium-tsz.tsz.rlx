@@ -2,16 +2,32 @@
 DELIMITERS = "<.>" ;
 
 # We can define sets for common tag clusters
-LIST Case = (n s) (n p) ; # A set that matches either a Noun Singular or a Noun Plural
-LIST Case = (n s) (n p) ; # A set that matches either a Noun Singular or a Noun Plural
-LIST V = v ;
-LIST N = n ;
-LIST O = o ;
-LIST FLEA = f ;
-LIST CORN = c ;
-LIST Det = det ;
+LIST Case = (n sg) (n pl) ; # A set that matches either a Noun Singular or a Noun Plural
+LIST ALL = (n) (v) (vbser) (vaux) (adj) (adv) (prn) (num) (det) (cnjsub) ;
+LIST MTI = "míti" ;
+LIST WKA = "wéka" ;
+LIST SGI = "segíri" ;
+LIST UKI = "uéjki" ;
+# LIST V = v;
+# LIST N = n;
+# LIST O = obj;
+# LIST INF = nf;
 
 SECTION
+
+# if there is an word ending in -ni following 'want', it is an infinitive verb, not object
+REMOVE (n) IF (-1 MTI) ;
+
+# if there is an word ending in -ni following 'love', it is an infinitive verb, not object
+REMOVE (n) IF (-1 WKA) ;
+
+# if there is an word ending in -ni following 'keep on', it is an infinitive verb, not object
+REMOVE (n) IF (-1 SGI) ;
+
+# if there is an word ending in -ni following 'want', it is an infinitive verb, not object
+REMOVE (n) IF (-1 UKI) ;
+
+
 
 
 # Resources:
