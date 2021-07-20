@@ -59,15 +59,12 @@ Adjective [<adj>:]
 Preposition [<pr>:]
 Determiner DeterminerInfl
 Number
-# Verb VerbInfn
 Verbs
-# V-Stem AspectTime ModeInterrogative
 Punctuation
 
 
 PATTERN Verbs
 V-Stem(1) [<v>:] V-Stem(2): AspectTime ModeInterrogative
-# V-Stem(1) [<v>:] V-Stem(3): Infinitive
 
 ###############################################################################
 ###                          L E X I C O N                                  ###
