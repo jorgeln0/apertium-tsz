@@ -24,6 +24,5 @@ Dimas, M. (1998). Curso de Lengua P'urhépecha. Uarhi.
 
 Bellamy, K. (2018). On the external relations of Purepecha An investigation into classification, contact and patterns of word formation. LOT Schools.
 
-
-
+Bible Society of Mexico. Faith Come By Hearing. https://live.bible.is/bible/TSZPNT/MAT/1
 
